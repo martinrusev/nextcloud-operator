@@ -1,0 +1,11 @@
+options:
+  image:
+    type: string
+    description: >
+      The location of the image to use, e.g. "registry.example.com/nextcloud:20". This setting is required.
+    default: "nextcloud:stable-fpm-alpine"
+  port:
+    type: int
+    description: >
+      The HTTP port
+    default: 80

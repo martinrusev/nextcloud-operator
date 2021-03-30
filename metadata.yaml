@@ -1,0 +1,19 @@
+name: nextcloud
+description: >
+  Nextcloud charm for Kubernetes deployments.
+tags:
+  - k8s
+  - kubernetes
+  - productivity
+series:
+  - kubernetes
+summary: >
+  Nextcloud is a safe home for all your data. Access & share your files,
+  calendars, contacts, mail & more from any device, on your terms.
+peers:
+  peer:
+    interface: peer
+requires:
+  database:
+    interface: db
+    limit: 1
